@@ -2,8 +2,12 @@
 <html>
 
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Menu Items</title>
     <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+
 </head>
 
 <body>
@@ -15,135 +19,705 @@
     <!-- Add more menu items here -->
     <h1 class="menu">Menu</h1>
     <form onsubmit="sendWhatsAppMessage(event)">
-        <div id="payasa" class="section">
+        <div class="section">
             <div class="section-title">Payasa</div>
-            <div class="container">
-                <div class="item">
-                    <img src="images/shavigePayasa.jpg" alt="Shavige Payasa">
-                    <label class="item-label">
-                        <h3>Shavige Payasa</h3>
-                        <input type="checkbox" name="payasa[]" value="Shavige Payasa">
-                    </label>
+            <div class="mt-4">
+                <div class="row">
+                    <div class="col-6 col-md-3">
+                        <div class="container">
+                            <div class="item">
+                                <label>
+                                    <img src="images/elaneer.jpg" alt="Image 1">
+                                    <h6>Elaneer Payasa</h6> <input type="checkbox" name="payasa[]"
+                                        value="Elaneer Payasa">
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="container">
+                            <div class="item">
+                                <label>
+                                    <img src="images/hesrbele.jpg" alt="Image 2">
+                                    <h6>Hesrbele Payasa</h6> <input type="checkbox" name="payasa[]"
+                                        value="Hesrbele Payasa">
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="container">
+                            <div class="item">
+                                <label>
+                                    <img src="images/macaroni.webp" alt="Image 3">
+                                    <h6>Macaroni Payasa</h6><input type="checkbox" name="payasa[]"
+                                        value="Macaroni Payasa">
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="container">
+                            <div class="item">
+                                <label>
+                                    <img src="images/sabbakki.jpg" alt="Image 4">
+                                    <h6>Sabakki Payasa</h6><input type="checkbox" name="payasa[]"
+                                        value="Sabakki Payasa">
+                                </label>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="item">
-                    <img src="images/sabbakki.jpg" alt="Sabbakki">
-                    <label class="item-label">
-                        <h3>Sabbakki Payasa</h3>
-                        <input type="checkbox" name="payasa[]" value="Sabbakki Payasa">
-                    </label>
-                </div>
-                <div class="item">
-                    <img src="images/elaneer.jpg" alt="Elaneer">
-                    <label class="item-label">
-                        <h3>Elaneer Payasa</h3>
-                        <input type="checkbox" name="payasa[]" value="Elaneer Payasa">
-                    </label>
-                </div>
-                <div class="item">
-                    <img src="images/hesrbele.jpg" alt="Hesbele">
-                    <label class="item-label">
-                        <h3>Hesrbele Payasa</h3>
-                        <input type="checkbox" name="payasa[]" value="Hesrbele Payasa">
-                    </label>
-                </div>
-                <div class="item">
-                    <img src="images/macaroni.webp" alt="macaroni">
-                    <label class="item-label">
-                        <h3>Macaroni Payasa</h3>
-                        <input type="checkbox" name="payasa[]" value="Macaroni Payasa">
-                    </label>
-                </div>
-                <!-- Add more Payasa items here -->
             </div>
         </div>
 
-        <div id="palya" class="section">
+        <div class="section">
+            <div class="section-title">Sweets</div>
+            <div class="mt-4">
+                <div class="row">
+                    <div class="col-6 col-md-3">
+                        <div class="container">
+                            <div class="item">
+                                <label>
+                                    <img src="images/elaneer.jpg" alt="Image 1">
+                                    <h6>Bele Holige</h6> <input type="checkbox" name="sweets[]" value="Bele Holige">
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="container">
+                            <div class="item">
+                                <label>
+                                    <img src="images/hesrbele.jpg" alt="Image 2">
+                                    <h6>Kayi Holige</h6> <input type="checkbox" name="sweets[]" value="Kayi Holige">
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="container">
+                            <div class="item">
+                                <label>
+                                    <img src="images/macaroni.webp" alt="Image 3">
+                                    <h6>50 50 Holige</h6><input type="checkbox" name="sweets[]" value="Kayi Holige">
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="container">
+                            <div class="item">
+                                <label>
+                                    <img src="images/sabbakki.jpg" alt="Image 4">
+                                    <h6>Carrot Holige</h6><input type="checkbox" name="sweets[]" value="Carrot Holige">
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="section">
             <div class="section-title">Palya</div>
-            <div class="container">
-                <div class="item">
-                    <img src="palya1.jpg" alt="Palya 1">
-                    <label class="item-label">
-                        <h3>Palya 1</h3>
-                        <input type="checkbox" name="palya[]" value="Palya 1">
-                    </label>
+            <div class="mt-4">
+                <div class="row">
+                    <div class="col-6 col-md-3">
+                        <div class="container">
+                            <div class="item">
+                                <label>
+                                    <img src="images/elaneer.jpg" alt="Image 1">
+                                    <h6>Mixed Vegetable Palya</h6> <input type="checkbox" name="palya[]"
+                                        value="Mixed Vegetable Palya">
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="container">
+                            <div class="item">
+                                <label>
+                                    <img src="images/hesrbele.jpg" alt="Image 2">
+                                    <h6>Aalu Finger</h6> <input type="checkbox" name="palya[]" value="Aalu Finger">
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="container">
+                            <div class="item">
+                                <label>
+                                    <img src="images/macaroni.webp" alt="Image 3">
+                                    <h6>Suvarnagadde Chilly</h6><input type="checkbox" name="palya[]"
+                                        value="Suvarnagadde Chilly">
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="container">
+                            <div class="item">
+                                <label>
+                                    <img src="images/sabbakki.jpg" alt="Image 4">
+                                    <h6>Kalu Sopu Palya</h6><input type="checkbox" name="palya[]"
+                                        value="Kalu Sopu Palya">
+                                </label>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="item">
-                    <img src="palya2.jpg" alt="Palya 2">
-                    <label class="item-label">
-                        <h3>Palya 2</h3>
-                        <input type="checkbox" name="palya[]" value="Palya 2">
-                    </label>
+            </div>
+        </div>
+        <div class="section">
+            <div class="section-title">Kosambari</div>
+            <div class="mt-4">
+                <div class="row">
+                    <div class="col-6 col-md-3">
+                        <div class="container">
+                            <div class="item">
+                                <label>
+                                    <img src="images/elaneer.jpg" alt="Image 1">
+                                    <h6>Sweetcorn Kosambari</h6> <input type="checkbox" name="kosambari[]"
+                                        value="Sweetcorn Kosambari">
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="container">
+                            <div class="item">
+                                <label>
+                                    <img src="images/hesrbele.jpg" alt="Image 2">
+                                    <h6>Hesrbele Kosambari</h6> <input type="checkbox" name="kosambari[]"
+                                        value="Hesrbele Kosambari">
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="container">
+                            <div class="item">
+                                <label>
+                                    <img src="images/macaroni.webp" alt="Image 3">
+                                    <h6>Paneer Fruit Kosambari</h6><input type="checkbox" name="kosambari[]"
+                                        value="Paneer Fruit Kosambari">
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="container">
+                            <div class="item">
+                                <label>
+                                    <img src="images/sabbakki.jpg" alt="Image 4">
+                                    <h6>Congress Kadlekayi Kosambari</h6><input type="checkbox" name="kosambari[]"
+                                        value="Congress Kadlekayi Kosambari">
+                                </label>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="item">
-                    <img src="palya1.jpg" alt="Palya 3">
-                    <label class="item-label">
-                        <h3>Palya 3</h3>
-                        <input type="checkbox" name="palya[]" value="Palya 3">
-                    </label>
-                </div>
-                <div class="item">
-                    <img src="palya2.jpg" alt="Palya 4">
-                    <label class="item-label">
-                        <h3>Palya 4</h3>
-                        <input type="checkbox" name="palya[]" value="Palya 4">
-                    </label>
-                </div>
-                <div class="item">
-                    <img src="palya1.jpg" alt="Palya 5">
-                    <label class="item-label">
-                        <h3>Palya 5</h3>
-                        <input type="checkbox" name="palya[]" value="Palya 5">
-                    </label>
-                </div>
-                <!-- Add more Palya items here -->
             </div>
         </div>
 
-        <div id="sweet" class="section">
-            <div class="section-title">Other Items</div>
-            <div class="container">
-                <div class="item">
-                    <img src="item1.jpg" alt="Item 1">
-                    <label class="item-label">
-                        <h3>Item 1</h3>
-                        <input type="checkbox" name="item[]" value="Item 1">
-                    </label>
+        <div class="section">
+            <div class="section-title">Starters</div>
+            <div class="mt-4">
+                <div class="row">
+                    <div class="col-6 col-md-3">
+                        <div class="container">
+                            <div class="item">
+                                <label>
+                                    <img src="images/elaneer.jpg" alt="Image 1">
+                                    <h6>Maddur Vada</h6> <input type="checkbox" name="starters[]" value="Maddur Vada">
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="container">
+                            <div class="item">
+                                <label>
+                                    <img src="images/hesrbele.jpg" alt="Image 2">
+                                    <h6>Baby Corn Lolipop</h6> <input type="checkbox" name="starters[]"
+                                        value="Baby Corn Lolipop">
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="container">
+                            <div class="item">
+                                <label>
+                                    <img src="images/macaroni.webp" alt="Image 3">
+                                    <h6>Aalu Kabab</h6><input type="checkbox" name="starters[]" value="Aalu Kabab">
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="container">
+                            <div class="item">
+                                <label>
+                                    <img src="images/sabbakki.jpg" alt="Image 4">
+                                    <h6>Pakoda</h6><input type="checkbox" name="starters[]" value="Pakoda">
+                                </label>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="item">
-                    <img src="item2.jpg" alt="Item 2">
-                    <label class="item-label">
-                        <h3>Item 2</h3>
-                        <input type="checkbox" name="item[]" value="Item 2">
-                    </label>
-                </div>
-                <div class="item">
-                    <img src="item1.jpg" alt="Item 3">
-                    <label class="item-label">
-                        <h3>Item 3</h3>
-                        <input type="checkbox" name="item[]" value="Item 3">
-                    </label>
-                </div>
-                <div class="item">
-                    <img src="item2.jpg" alt="Item 4">
-                    <label class="item-label">
-                        <h3>Item 4</h3>
-                        <input type="checkbox" name="item[]" value="Item 4">
-                    </label>
-                </div>
-                <div class="item">
-                    <img src="item1.jpg" alt="Item 5">
-                    <label class="item-label">
-                        <h3>Item 5</h3>
-                        <input type="checkbox" name="item[]" value="Item 5">
-                    </label>
-                </div>
-                <!-- Add more Other Items here -->
             </div>
         </div>
 
+        <div class="section">
+            <div class="section-title">Roti</div>
+            <div class="mt-4">
+                <div class="row">
+                    <div class="col-6 col-md-3">
+                        <div class="container">
+                            <div class="item">
+                                <label>
+                                    <img src="images/elaneer.jpg" alt="Image 1">
+                                    <h6>Poori</h6> <input type="checkbox" name="roti[]" value="Poori">
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="container">
+                            <div class="item">
+                                <label>
+                                    <img src="images/hesrbele.jpg" alt="Image 2">
+                                    <h6>Chole Batura</h6> <input type="checkbox" name="roti[]" value="Chole Batura">
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="container">
+                            <div class="item">
+                                <label>
+                                    <img src="images/macaroni.webp" alt="Image 3">
+                                    <h6>Akki Roti</h6><input type="checkbox" name="roti[]" value="Akki Roti">
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="container">
+                            <div class="item">
+                                <label>
+                                    <img src="images/sabbakki.jpg" alt="Image 4">
+                                    <h6>Bili(kara) Holige</h6><input type="checkbox" name="roti[]"
+                                        value="Bili(kara) Holige">
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-        <div class="submit-button">
-            <button type="submit">Submit</button>
+        <div class="section">
+            <div class="section-title">Vegetable Curry</div>
+            <div class="mt-4">
+                <div class="row">
+                    <div class="col-6 col-md-3">
+                        <div class="container">
+                            <div class="item">
+                                <label>
+                                    <img src="images/elaneer.jpg" alt="Image 1">
+                                    <h6>Hithakidavare Gojju</h6> <input type="checkbox" name="curry[]"
+                                        value="Hithakidavare Gojju">
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="container">
+                            <div class="item">
+                                <label>
+                                    <img src="images/hesrbele.jpg" alt="Image 2">
+                                    <h6>Paneer Butter Masala</h6> <input type="checkbox" name="curry[]"
+                                        value="Paneer Butter Masala">
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="container">
+                            <div class="item">
+                                <label>
+                                    <img src="images/macaroni.webp" alt="Image 3">
+                                    <h6>Vegetable Kadai</h6><input type="checkbox" name="curry[]"
+                                        value="Vegetable Kadai">
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="container">
+                            <div class="item">
+                                <label>
+                                    <img src="images/sabbakki.jpg" alt="Image 4">
+                                    <h6>Dry Fruits Curd Rice</h6><input type="checkbox" name="curry[]"
+                                        value="Dry Fruits Curd Rice">
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-title">Rice Items</div>
+            <div class="mt-4">
+                <div class="row">
+                    <div class="col-6 col-md-3">
+                        <div class="container">
+                            <div class="item">
+                                <label>
+                                    <img src="images/elaneer.jpg" alt="Image 1">
+                                    <h6>Veg Palauo</h6> <input type="checkbox" name="riceitems[]" value="Veg Palauo">
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="container">
+                            <div class="item">
+                                <label>
+                                    <img src="images/hesrbele.jpg" alt="Image 2">
+                                    <h6>Veg Dum Biriyani</h6> <input type="checkbox" name="riceitems[]"
+                                        value="Veg Dum Biriyani">
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="container">
+                            <div class="item">
+                                <label>
+                                    <img src="images/macaroni.webp" alt="Image 3">
+                                    <h6>Methi Palauo</h6><input type="checkbox" name="riceitems[]" value="Methi Palauo">
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="container">
+                            <div class="item">
+                                <label>
+                                    <img src="images/sabbakki.jpg" alt="Image 4">
+                                    <h6>Veg Hyderbadi Biriyani</h6><input type="checkbox" name="riceitems[]"
+                                        value="Veg Hyderbadi Biriyani">
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="section-title">Rasam & Sambar</div>
+            <div class="mt-4">
+                <div class="row">
+                    <div class="col-6 col-md-3">
+                        <div class="container">
+                            <div class="item">
+                                <label>
+                                    <img src="images/elaneer.jpg" alt="Image 1">
+                                    <h6>Madras Rasam</h6> <input type="checkbox" name="rasam[]" value="Madras Rasam">
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="container">
+                            <div class="item">
+                                <label>
+                                    <img src="images/hesrbele.jpg" alt="Image 2">
+                                    <h6>Mysore Rasam</h6> <input type="checkbox" name="rasam[]" value="Mysore Rasam">
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="container">
+                            <div class="item">
+                                <label>
+                                    <img src="images/macaroni.webp" alt="Image 3">
+                                    <h6>Nuggekai Sambar</h6><input type="checkbox" name="rasam[]"
+                                        value="Nuggekai Sambar">
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="container">
+                            <div class="item">
+                                <label>
+                                    <img src="images/sabbakki.jpg" alt="Image 4">
+                                    <h6>Tamil Nadu Sambar</h6><input type="checkbox" name="rasam[]"
+                                        value="Tamil Nadu Sambar">
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-title">Paan</div>
+            <div class="mt-4">
+                <div class="row">
+                    <div class="col-6 col-md-3">
+                        <div class="container">
+                            <div class="item">
+                                <label>
+                                    <img src="images/elaneer.jpg" alt="Image 1">
+                                    <h6>Sweet Saada Paan</h6> <input type="checkbox" name="paan[]"
+                                        value="Sweet Saada Paan">
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="container">
+                            <div class="item">
+                                <label>
+                                    <img src="images/hesrbele.jpg" alt="Image 2">
+                                    <h6>Fire Paan</h6> <input type="checkbox" name="paan[]" value="Fire Paan">
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="container">
+                            <div class="item">
+                                <label>
+                                    <img src="images/macaroni.webp" alt="Image 3">
+                                    <h6>Mugai Paan</h6><input type="checkbox" name="paan[]" value="Mugai Paan">
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="container">
+                            <div class="item">
+                                <label>
+                                    <img src="images/sabbakki.jpg" alt="Image 4">
+                                    <h6>Kharjura(Dates) paan</h6><input type="checkbox" name="paan[]"
+                                        value="Kharjura paan">
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="container">
+                            <div class="item">
+                                <label>
+                                    <img src="images/elaneer.jpg" alt="Image 1">
+                                    <h6>Chocolate Paan</h6> <input type="checkbox" name="paan[]" value="Chocolate Paan">
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-title">Desserts</div>
+            <div class="mt-4">
+                <div class="row">
+                    <div class="col-6 col-md-3">
+                        <div class="container">
+                            <div class="item">
+                                <label>
+                                    <img src="images/elaneer.jpg" alt="Image 1">
+                                    <h6>Banana</h6> <input type="checkbox" name="dessert[]" value="Banana">
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="container">
+                            <div class="item">
+                                <label>
+                                    <img src="images/hesrbele.jpg" alt="Image 2">
+                                    <h6>Fruit Salad</h6> <input type="checkbox" name="dessert[]" value="Fruit Salad">
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="container">
+                            <div class="item">
+                                <label>
+                                    <img src="images/macaroni.webp" alt="Image 3">
+                                    <h6>Vanila Icecream</h6><input type="checkbox" name="dessert[]"
+                                        value="Vanila Icecream">
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="container">
+                            <div class="item">
+                                <label>
+                                    <img src="images/sabbakki.jpg" alt="Image 4">
+                                    <h6>Strawberry Icecream</h6><input type="checkbox" name="dessert[]"
+                                        value="Strawberry Icecream">
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="container">
+                            <div class="item">
+                                <label>
+                                    <img src="images/elaneer.jpg" alt="Image 1">
+                                    <h6>Pista Icecream</h6> <input type="checkbox" name="dessert[]"
+                                        value="Pista Icecream">
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-title">Addons</div>
+            <div class="mt-4">
+                <div class="row">
+                    <div class="col-6 col-md-3">
+                        <div class="container">
+                            <div class="item">
+                                <label>
+                                    <img src="images/elaneer.jpg" alt="Image 1">
+                                    <h6>Raitha</h6> <input type="checkbox" name="addons[]" value="Raitha">
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="container">
+                            <div class="item">
+                                <label>
+                                    <img src="images/hesrbele.jpg" alt="Image 2">
+                                    <h6>Grevy</h6> <input type="checkbox" name="addons[]" value="Grevy">
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="container">
+                            <div class="item">
+                                <label>
+                                    <img src="images/macaroni.webp" alt="Image 3">
+                                    <h6>White Rice</h6><input type="checkbox" name="addons[]" value="White Rice">
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="container">
+                            <div class="item">
+                                <label>
+                                    <img src="images/sabbakki.jpg" alt="Image 4">
+                                    <h6>Channa Masala</h6><input type="checkbox" name="addons[]" value="Channa Masala">
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="container">
+                            <div class="item">
+                                <label>
+                                    <img src="images/elaneer.jpg" alt="Image 1">
+                                    <h6>Tambula With Bag</h6> <input type="checkbox" name="addons[]"
+                                        value="Tambula With Bag">
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="container">
+                            <div class="item">
+                                <label>
+                                    <img src="images/hesrbele.jpg" alt="Image 2">
+                                    <h6>500ML Water Bottles</h6> <input type="checkbox" name="addons[]"
+                                        value="500ML Water Bottles">
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="container">
+                            <div class="item">
+                                <label>
+                                    <img src="images/macaroni.webp" alt="Image 3">
+                                    <h6>Paper Roll</h6><input type="checkbox" name="addons[]" value="Paper Roll">
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="container">
+                            <div class="item">
+                                <label>
+                                    <img src="images/sabbakki.jpg" alt="Image 4">
+                                    <h6>Banana Leaf</h6><input type="checkbox" name="addons[]" value="Banana Leaf">
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="container">
+                            <div class="item">
+                                <label>
+                                    <img src="images/elaneer.jpg" alt="Image 1">
+                                    <h6>Napkins</h6> <input type="checkbox" name="addons[]" value="Napkins">
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="container">
+                            <div class="item">
+                                <label>
+                                    <img src="images/hesrbele.jpg" alt="Image 2">
+                                    <h6>Servers With Uniforms</h6> <input type="checkbox" name="addons[]"
+                                        value="Servers With Uniforms">
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="container">
+                            <div class="item">
+                                <label>
+                                    <img src="images/macaroni.webp" alt="Image 3">
+                                    <h6>Transportation</h6><input type="checkbox" name="addons[]"
+                                        value="Transportation">
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container fixed-bottom mt-4">
+            <div class="row justify-content-center">
+                <button type="submit" class="btn btn-primary btn-floating">Submit</button>
+            </div>
         </div>
     </form>
     <div class="footer">
@@ -164,6 +738,9 @@
         updateGridColumns();
     </script> -->
     <script src="js/index.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
 </body>
 
 </html>
