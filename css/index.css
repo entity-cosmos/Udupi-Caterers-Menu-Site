@@ -18,7 +18,8 @@ body {
 }
 
 .menu {
-    padding-left: 20px;
+    display: flex;
+    justify-content: center;
 }
 
 .section {
@@ -26,7 +27,7 @@ body {
 }
 
 .section-title {
-    font-size: 18px;
+    font-size: 30px;
     font-weight: bold;
     padding-left: 20px;
     margin-bottom: 10px;
@@ -34,9 +35,13 @@ body {
 
 .container {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-gap: 10px;
+    grid-gap: 20px;
     margin: 20px;
+}
+
+.btn-div {
+    display: flex;
+    justify-content: center;
 }
 
 .item {
