@@ -24,6 +24,12 @@ body {
 
 .section {
     margin-bottom: 30px;
+    padding: 20px;
+}
+
+.card1 {
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .section-title {
