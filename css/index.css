@@ -1,13 +1,13 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
+
 }
 
 .header {
-    background-color: #FF9B9B;
+    background-color: #1D5D9B;
     color: #fff;
-    padding: 20px;
+    padding-left: 10px;
 }
 
 .footer {
@@ -20,6 +20,23 @@ body {
 .menu {
     display: flex;
     justify-content: center;
+    font-size: 30px;
+}
+
+.logo {
+    height: 50px;
+    width: 50px;
+    mix-blend-mode: color-burn;
+}
+
+#accordionExample {
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.04);
 }
 
 .section {
@@ -27,10 +44,11 @@ body {
     padding: 20px;
 }
 
-.card1 {
+#cardCss {
     padding-top: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 30px;
 }
+
 
 .section-title {
     font-size: 30px;
@@ -87,13 +105,6 @@ body {
 .submit-button {
     text-align: center;
     margin: 20px;
-}
-
-
-@media screen and (max-width: 390px) {
-    .container {
-        grid-template-columns: repeat(2, 1fr);
-    }
 }
 
 /* 
